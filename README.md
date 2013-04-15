@@ -7,10 +7,18 @@ Super simple, fast and easy to create a personal portfolio webpage and host it o
 
 ### Usage ###
 
-Fork this repo, and in your fork, switch to the gh-pages branch. Edit the website content to fit your personal needs. 
-The completed page will be available at https://<username>.github.com/portfolio.
+Fork this repo, and in your fork, switch to the gh-pages branch. Edit the values in `js/config.js` to fit your personal needs.
+Add images to the `img` directory and add their references to `config.images`. If you choose to create your own stylesheet, add
+it to the `css` directory, and change `config.style` to the name of your css file.
+The completed page will be available at `https://<username>.github.com/portfolio`.
 
 ### Current Status ###
+
+**4/15/2013**
+
+* Added image and custom html options.
+* *TODO:* more `CSS` stylesheet options
+* *TODO:* improve README documentation
 
 **4/15/2013**
 

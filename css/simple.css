@@ -26,6 +26,11 @@ body > div
 	text-decoration: underline;
 }
 
+.grid_img
+{
+	width: 100%;
+}
+
 #profile_pic
 {
 	width: 20%;

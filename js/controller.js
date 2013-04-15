@@ -140,7 +140,67 @@ var Controller = (function ()
         		$("#chunk2").append("<br><iframe src='http://githubbadge.appspot.com/badge/" + config.github + "' style='border: 0;height: 142px;width: 200px;overflow: hidden;' frameBorder=0></iframe>");
         	}
         	
-        	//TODO: handle links and images
+        	//images
+        	if (config.images) {
+        		var html = "<table >";
+        		var counter = 0;
+        		var isOpen = false;
+        		for (var i = 0; i < config.images.length; i++) {
+        			var obj = config.images[i];
+        			
+        			if (!obj.src) {
+        				console.error("could not load image. No source reference.");
+        				continue;
+        			}
+        			if (counter == 0 || counter%2 == 0) {
+        				if (isOpen) {
+        					html = html + "</tr>";
+        				}
+        				html = html + "<tr>";
+        				isOpen = true;
+        			}
+        			html = html + "<td>";
+        			
+        			//insert image
+        			var image = "<img class='grid_img' ";
+        			
+        			image = image + "src='" + obj.src + "' ";
+        			if (obj.alt) {
+        				image = image + "alt='" + obj.alt + "' ";
+        			}
+        			if (obj.title) {
+        				image = image + "title='" + obj.title + "' >";
+        			}
+        			if (obj.link) {
+        				html = html + "<a href='" + obj.link + "'>"
+        			}
+        			html = html + image;
+        			if (obj.link) {
+        				html = html + "</a>";
+        			}
+        			
+        			counter++;
+        			html = html + "</td>";
+        		}
+        		if (isOpen) {
+        			html = html + "</tr>";
+        		}
+        		html = html + "</table>";
+        		
+        		$("#chunk3").append(html);
+        	}
+        	
+        	
+        	//custom content
+        	if (config.customHTML) {
+        		try {
+        			$("#custom_content").load(config.customHTML);
+        		}
+        		catch(e) {
+        			console.error("could not load custom content " + config.customHTML + ". Ensure this points to a separate .html file.");
+        		}
+        		
+        	}
         };
     }
     
