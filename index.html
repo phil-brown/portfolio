@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
+        <meta name="description" content="Personal Portfolio">
+        <meta name="viewport" content="width=device-width">
+
+		<!-- <?php echo '<link rel="shortcut icon" type="image/x-icon" href="'. gravatar_favicon() .'" />'; ?> -->
+        <!-- <link id="favicon" rel="shortcut icon" type="image/png" href="" /> -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        
+        <!-- Set dynamically in controller.js to match developer preferences. -->
+        <link id="profile_style" rel="stylesheet" >
+       
+        
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body onload="main();">
+    	
+    	
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div id="chunk1">
+        	<img id="profile_pic" src="http://www.gravatar.com/avatar" />
+        	<label id="label_name"> </label><br>
+        	<label id="label_title"> </label><br>
+        	<hr>
+        	<label id="label_summary"> </label><br>
+        </div>
+        <hr>
+        <div id="chunk2">
+        	<label class="label">Employer:</label>
+        	<label id="label_company"> </label><br>
+        	
+        	<label class="label">Email Address:</label>
+        	<label id="label_email"> </label><br>
+        	
+        	<label class="label">Phone Number:</label>
+        	<label id="label_phone"> </label><br>
+        	
+        	<label class="label">Location:</label>
+        	<label id="label_location"> </label><br>
+
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/config.js"></script>
+        <script src="js/controller.js"></script>
+        <script src="js/main.js"></script>
+        
+
+        <script>
+        	if (config.google_analytics) {
+        		var _gaq=[['_setAccount', config.google_analytics],['_trackPageview']];
+	            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	            g.src='//www.google-analytics.com/ga.js';
+	            s.parentNode.insertBefore(g,s)}(document,'script'));
+        	}
+        </script>
+        
+        <img src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png"><br>
+        <b>Portfolio</b> by <a href="https://github.com/phil-brown/portfolio">Phil Brown</a> is licensed under a <a href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>
+    </body>
+</html>

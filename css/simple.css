@@ -1,0 +1,63 @@
+html
+{
+	height: 100%;
+	width: 100%;
+}
+
+body
+{
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #FFFFFF), color-stop(1.0, #666666));
+    min-height: 100%;
+}
+
+body > div 
+{
+	clear: both;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.label
+{
+	color: black;
+	font: 1.4em serif;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+#profile_pic
+{
+	width: 20%;
+	margin: 1%;
+	border: 0.5em solid black;
+	-webkit-border-radius: 6px;
+	float: left;
+}
+
+#label_name
+{
+	font: 2.5em sans-serif;
+	color: black;
+	font-weight: bolder;
+	padding-top: 1%;
+}
+
+#label_title
+{
+	font: 2em sans-serif;
+	color: black;
+	font-style: normal;
+}
+
+#label_summary
+{
+	font: 1.5em sans-serif;
+	color: #333333;
+	font-style: normal;
+}
+
+#chunk2
+{
+	margin: 1%;
+}
