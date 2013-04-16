@@ -14,7 +14,7 @@
 	/**
 	 * Some summary about who you are or what you do
 	 */
-	config.summary = "I created this website! More soon.";
+	config.summary = "I am a mobile developer with nearly 7 years of Java experience, over 2 years of Android experience, nearly 1 year of iOS experience and several months of HTML5 experience. I created this website so that others could create a very simple portfolio page quickly, and host it freely on GitHub.";
 	/**
 	 * Name of the company you work for
 	 */
@@ -77,8 +77,12 @@
 	 * These images will appear in a table on the page
 	 */
 	config.images = [
-	                 {src: "img/foo.jpeg", alt: "Where's Waldo?", title: "Where's Waldo?"}, 
-	                 {src: "img/bar.jpg", alt: "cup o' joe", link: "http://shop.github.com/products/github-mug"}
+	                 {src: "img/plates_snapshot.png", alt: "Plate Tectonics (Android). Part of amplify.com.", title: "Plate Tectonics (Android). Part of amplify.com.", link: "http://www.smallplanet.com" }, 
+	                 {src: "img/bodySim_snapshot.png", alt: "Body Simulator (Android). Part of amplify.com.", title: "Body Simulator (Android). Part of amplify.com.", link: "http://www.smallplanet.com" },
+	                 {src: "img/lostRobot_snapshot.png", alt: "Ancient Robot (Android). Part of amplify.com.", title: "Ancient Robot (Android). Part of amplify.com.", link: "http://www.smallplanet.com" },
+	                 {src: "img/LTConnect_snapshot.png", alt: "Fitness Instructor App (Android, HTML5)", title: "Fitness Instructor App (Android, HTML5)", link: "http://www.npe-inc.com" },
+	                 {src: "img/cyclopath_snapshot.png", alt: "Cyclopath Mobile (Android)", title: "Cyclopath Mobile (Android)", link: "https://market.android.com/details?id=org.cyclopath.android" },
+	                 {src: "img/ap-aware_snapshot.png", alt: "Ap-Aware Anti-Malware (Android)", title: "Ap-Aware Anti-Malware (Android)", link: "https://market.android.com/details?id=com.apaware.android" }
 	                ];
 	
 	/**
