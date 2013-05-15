@@ -1,3 +1,25 @@
 <div>
 	I am currently working on developing multiple apps for <em>Android</em>, <em>iOS</em> and <em>HTML5</em>. Screenshots will be posted when available.
+	<br>
+	This website is not only my portfolio, but also my open source project. I
+	created this site so that others could create a very simple portfolio page quickly,
+	and host it freely on GitHub. Here's how:
+	<ol>
+		<li>Fork the repo - https://github.com/phil-brown/portfolio 
+		<li>If the gh-pages branch was not copied, create a new branch called 'gh-pages'. 
+		<li>In the gh-pages branch, edit the file <tt>js/config.js</tt> to set the fields that can be displayed. 
+		Any field (with some exceptions) can be set to a <i>string</i>, <i>html</i>, <tt>null</tt> or can simply not exist, and 
+		it will be properly handled when the page is displayed. \The exceptions to this include the <i>images</i> 
+		field and the <i>customHTML</i> field. The <i>customHTML</i> field should be the relative path to an HTML 
+		file that contains the HTML for the optional custom section. The <i>image</i> field is an array of Objects 
+		represented in JSON annotation that provide image paths, url links, and tooltip text - all of which are used 
+		to show your portfolio images in a two-column table. The following string values are allowed: 
+		<ul>
+			<li>src
+			<li>alt
+			<li>title
+			<li>link
+		</ul>
+	</ol>
+	For more help on how to configure YOUR page, view the original source on github, or my source here.
 </div>
