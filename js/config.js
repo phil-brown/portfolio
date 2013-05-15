@@ -18,8 +18,8 @@
 	years of Android experience, nearly 1 year of iOS experience and several months of HTML5 \
 	experience. I am a hard worker and a perfectionist, and I enjoy learning new software languages. \
 	<br>\
-	On a personal scale - I enjoy the life of a telecommuter (over 1 year experience), and \
-	after work enjoy roasting coffee, brewing beer, and spending time with my wife and kids. \
+	On a personal note, I enjoy the life of a telecommuter (over 1 year experience), and \
+	my hobbies include roasting coffee, brewing beer, and spending time with my wife and kids. \
 	<br>";
 	
 	/**
