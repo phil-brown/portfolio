@@ -25,7 +25,7 @@
 	/**
 	 * Name of the company you work for
 	 */
-	config.company = "North Pole Engineering";
+	config.company = "Self Employed";
 	
 	/**
 	 * Email address. Any format. This will also be used to retrieve your Gravatar, unless the gravatar hash is
