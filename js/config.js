@@ -14,11 +14,11 @@
 	/**
 	 * Some summary about who you are or what you do
 	 */
-	config.summary = "I am a mobile developer with nearly 7 years of Java experience, over 2 \
-	years of Android experience, nearly 1 year of iOS experience and several months of HTML5 \
-	experience. I am a hard worker and a perfectionist, and I enjoy learning new software languages. \
+	config.summary = "I am a mobile applications developer with 7 years of Java experience, 2.5 \
+	years of Android experience, 1 year of iOS experience and 4 months of HTML5 \
+	experience. I work hard to provide the best user experiences possible, with the most intuitive user interactions. \
 	<br>\
-	On a personal note, I enjoy the life of a telecommuter (over 1 year experience), and \
+	On a personal note, I enjoy the life of a telecommuter (over 1.5 years of experience), and \
 	my hobbies include roasting coffee, brewing beer, and spending time with my wife and kids. \
 	<br>";
 	
