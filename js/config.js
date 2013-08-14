@@ -15,17 +15,16 @@
 	 * Some summary about who you are or what you do
 	 */
 	config.summary = "I am a mobile applications developer with 7 years of Java experience, 2.5 \
-	years of Android experience, 1 year of iOS experience and 4 months of HTML5 \
+	years of Android experience, 1 year of iOS experience and several months of HTML5 \
 	experience. I work hard to provide the best user experiences possible, with the most intuitive user interactions. \
 	<br>\
-	On a personal note, I enjoy the life of a telecommuter (over 1.5 years of experience), and \
-	my hobbies include roasting coffee, brewing beer, and spending time with my wife and kids. \
+	On my spare time I enjoy roasting coffee, brewing beer, biking, and spending time with my wife and kids. \
 	<br>";
 	
 	/**
 	 * Name of the company you work for
 	 */
-	config.company = "Self Employed";
+	config.company = "MentorMate, LLC";
 	
 	/**
 	 * Email address. Any format. This will also be used to retrieve your Gravatar, unless the gravatar hash is
