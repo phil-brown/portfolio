@@ -47,7 +47,7 @@
 	/**
 	 * This is your twitter handle. You can include the @, but don't have to
 	 */
-	config.twitter = "philip22brown";
+	config.twitter = "phdbrown";
 	
 	/**
 	 * Stack Overflow profile ID. this is the number before your username if you look at your profile
