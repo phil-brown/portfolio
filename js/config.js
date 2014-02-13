@@ -10,15 +10,16 @@
 	/**
 	 * Your title - such as "Software Developer" or "Web Designer"
 	 */
-	config.title = "Mobile Developer";
+	config.title = "Senior Mobile Developer";
 	/**
 	 * Some summary about who you are or what you do
 	 */
-	config.summary = "I am a mobile applications developer with 7 years of Java experience, 2.5 \
-	years of Android experience, 1 year of iOS experience and several months of HTML5 \
-	experience. I work hard to provide the best user experiences possible, with the most intuitive user interactions. \
+	config.summary = "I am a mobile applications developer with 7 years of Java experience, 3 \
+	years of Android experience, 1.5 years of iOS & Objective-c experience, and nearly a year of HTML5 \
+	experience. I currently work at <a href='http://www.mentormate.com'>MentorMate</a>, and develop new apps. \
+	for clients. \
 	<br>\
-	On my spare time I enjoy roasting coffee, brewing beer, biking, and spending time with my wife and kids. \
+	On my spare time I enjoy roasting coffee, brewing beer, and writing open source software, such as <a href='http://bit.ly/droidquery'>droidQuery</a>. \
 	<br>";
 	
 	/**
@@ -70,7 +71,7 @@
 	config.gravatar_hash = "e64061a865ef84951bf78944dfecc808";
 	
 	/** Google Analytics: change UA-XXXXX-X to be your site's ID. */
-	config.google_analytics = "UA-XXXXX-X";
+	config.google_analytics = "UA-42406660-2";
 	
 	/**
 	 * Refers to the stylesheet used. This means that css/simple.css is used.
@@ -86,7 +87,6 @@
 	                 {src: "img/plates_snapshot.png", alt: "Plate Tectonics (Android). Part of amplify.com.", title: "Plate Tectonics (Android). Part of amplify.com.", link: "http://www.smallplanet.com" }, 
 	                 {src: "img/bodySim_snapshot.png", alt: "Body Simulator (Android). Part of amplify.com.", title: "Body Simulator (Android). Part of amplify.com.", link: "http://www.smallplanet.com" },
 	                 {src: "img/lostRobot_snapshot.png", alt: "Ancient Robot (Android). Part of amplify.com.", title: "Ancient Robot (Android). Part of amplify.com.", link: "http://www.smallplanet.com" },
-	                 {src: "img/LTConnect_snapshot.png", alt: "Fitness Instructor App (Android, HTML5)", title: "Fitness Instructor App (Android, HTML5)", link: "http://www.npe-inc.com" },
 	                 {src: "img/cyclopath_snapshot.png", alt: "Cyclopath Mobile (Android)", title: "Cyclopath Mobile (Android)", link: "https://market.android.com/details?id=org.cyclopath.android" },
 	                 {src: "img/ap-aware_snapshot.png", alt: "Ap-Aware Anti-Malware (Android)", title: "Ap-Aware Anti-Malware (Android)", link: "https://market.android.com/details?id=com.apaware.android" }
 	                ];
