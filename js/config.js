@@ -83,7 +83,7 @@
 	 * These images will appear in a table on the page
 	 */
 	config.images = [
-	                 {src: "img/nclexrn_snapshot.png", alt: "NCLEX RN Mastery (Android)", title: "NCLEX RN Mastery (Android)", link: "http://www.nclexmastery.com" },
+	                 {src: "img/nclexrn_snapshot.jpeg", alt: "NCLEX RN Mastery (Android)", title: "NCLEX RN Mastery (Android)", link: "http://www.nclexmastery.com" },
 	                 {src: "img/plates_snapshot.png", alt: "Plate Tectonics (Android). Part of amplify.com.", title: "Plate Tectonics (Android). Part of amplify.com.", link: "http://www.smallplanet.com" }, 
 	                 {src: "img/bodySim_snapshot.png", alt: "Body Simulator (Android). Part of amplify.com.", title: "Body Simulator (Android). Part of amplify.com.", link: "http://www.smallplanet.com" },
 	                 {src: "img/lostRobot_snapshot.png", alt: "Ancient Robot (Android). Part of amplify.com.", title: "Ancient Robot (Android). Part of amplify.com.", link: "http://www.smallplanet.com" },
