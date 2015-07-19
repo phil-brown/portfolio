@@ -10,14 +10,13 @@
 	/**
 	 * Your title - such as "Software Developer" or "Web Designer"
 	 */
-	config.title = "Senior Mobile Developer";
+	config.title = "Senior Android Developer";
 	/**
 	 * Some summary about who you are or what you do
 	 */
-	config.summary = "I am a mobile applications developer with 7 years of Java experience, 3 \
-	years of Android experience, 1.5 years of iOS & Objective-c experience, and nearly a year of HTML5 \
-	experience. I currently work at <a href='http://www.mentormate.com'>MentorMate</a>, and develop new apps. \
-	for clients. \
+	config.summary = "I am a senior-level mobile developer with a specialty in Android development. \
+	I have also created iOS and HTML5 apps, and am a Certified Scrum Developer. I am currently looking \
+	for new employment opportunities in a Senior, Lead, or Managerial role. \
 	<br>\
 	On my spare time I enjoy roasting coffee, brewing beer, and writing open source software, such as <a href='http://bit.ly/droidquery'>droidQuery</a>. \
 	<br>";
@@ -25,7 +24,7 @@
 	/**
 	 * Name of the company you work for
 	 */
-	config.company = "MentorMate, LLC";
+	config.company = "Higher Learning Technologies, Inc";
 	
 	/**
 	 * Email address. Any format. This will also be used to retrieve your Gravatar, unless the gravatar hash is
@@ -84,6 +83,7 @@
 	 * These images will appear in a table on the page
 	 */
 	config.images = [
+	                 {src: "img/nclexrn_snapshot.png", alt: "NCLEX RN Mastery (Android)", title: "NCLEX RN Mastery (Android)", link: "http://www.nclexmastery.com" },
 	                 {src: "img/plates_snapshot.png", alt: "Plate Tectonics (Android). Part of amplify.com.", title: "Plate Tectonics (Android). Part of amplify.com.", link: "http://www.smallplanet.com" }, 
 	                 {src: "img/bodySim_snapshot.png", alt: "Body Simulator (Android). Part of amplify.com.", title: "Body Simulator (Android). Part of amplify.com.", link: "http://www.smallplanet.com" },
 	                 {src: "img/lostRobot_snapshot.png", alt: "Ancient Robot (Android). Part of amplify.com.", title: "Ancient Robot (Android). Part of amplify.com.", link: "http://www.smallplanet.com" },
